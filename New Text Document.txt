@@ -1,0 +1,22 @@
+rgba(94,96,108,0.8);
+
+transform: translateX(-50%) translateZ(0) translateY(-50%);
+
+transition: all 0.55s ease-out;
+
+    transition-delay: .55s;
+    left: 50%;
+    top: 50%;
+
+{    
+    margin-top: 0;
+    position: absolute;
+    
+    right: 0;
+    overflow: hidden;
+    text-align: center;
+    z-index: 2;
+max-width: 260px;
+    height: 184px;
+    background-color: #fff;
+    opacity: 1;}

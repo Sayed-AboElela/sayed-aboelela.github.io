@@ -1,0 +1,37 @@
+.clearfix {
+    clear: both;
+}
+.ar {
+	font-family: 'Cairo', sans-serif !important;
+
+}
+.font16 {
+    font-size: 16px !important;
+}
+.float-right {
+    float: right !important;
+}
+
+.langLinkAr {
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+}
+
+.counter-left {
+    position: absolute !important;
+    right: unset !important;
+    left: 0 !important;
+
+}
+
+.pro-next-ar {
+    float: right !important;
+}
+.pos-right {
+    right: -86px;
+}
+
+.b-hat-pos-ar {
+    right: 150px !important;
+    left: unset !important;
+}
