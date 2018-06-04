@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>E-Commerce</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Start Header -->
+        <!-- Nav tabs -->
+        <div class="header-nav">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-4">
+                        <a class="bg-white logo" href="#">
+                            <img src="img/Logo.png" class="img-fluid w-75" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="row">
+                            <div class="col-lg-12 py-2 col-sm-9">
+                                <form class="form">
+                                    <div class="input-group search">
+
+                                        <span class="input-group-addon input-bg border-0 mb-1 p-0" id="basic-addon1">
+                                            <button class="btn btn-lg input-bg" type="button">
+                                                <i class="input-bg fa fa-search"></i>
+                                            </button>
+                                        </span>
+                                        <input type="text" class="form-control input-bg border-0 mb-1 py-0" placeholder="Search within these results" aria-label="Username"
+                                            aria-describedby="basic-addon1">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-12 py-3 col-sm-3">
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+
+
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+
+                                    <div class="collapse navbar-collapse" id="navbarToggler">
+                                        <ul class="navbar-nav navbar-nav-responsive mr-auto mt-2 mt-lg-0">
+                                            <li class="nav-item mr-1">
+                                                <a class="nav-link" href="#">Home
+                                                    <span class="sr-only">(current)</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item mr-1">
+                                                <a class="nav-link" href="#">SHOP</a>
+                                            </li>
+                                            <li class="nav-item mr-1">
+                                                <a class="nav-link" href="#">ACCESSORIES</a>
+                                            </li>
+                                            <li class="nav-item mr-1">
+                                                <a class="nav-link" href="#">BLOG</a>
+                                            </li>
+                                            <li class="nav-item mr-1">
+                                                <a class="nav-link" href="#">ABOUT US</a>
+                                            </li>
+                                            <li class="nav-item mr-1">
+                                                <a class="nav-link" href="#">CONTACT US</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                </nav>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-1 none"></div>
+                    <div class="col-lg-1 text-center py-4 col-sm-2">
+                        <a href="" class="nav-ancor">
+
+                            <span class="nav-icon">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </span>
+                            <span class="badge shop-badge">2</span>
+                            <span class="sr-only">unread shoping cart</span>
+                        </a>
+                        <br>
+                        <a href="" class="nav-ancor float-left">
+                            <span class="nav-icon">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </span>
+                        </a>
+
+                        <a href="" class="nav-ancor float-right">
+                            <span class="nav-icon">
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 content-header">
+                        <h3 class="py-4 content-header-h text-uppercase">checkout</h3>
+                        <span class="py-3 content-header-links">
+                            <a href="" class="mr-1 content-header-link text-uppercase">HOME</a> / /
+                            <a href="" class="ml-1 content-header-link text-uppercase">chechout</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start CheckOut Body -->
+    <div class="checkout-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 mb-3">
+                    <div class="billing-details p-5">
+
+                        <h4 class="text-center text-uppercase font-weight-bold mb-4">billing-details</h4>
+                        <form>
+                            <div class="form-group mb6rem">
+                                <input type="text" class="form-control checkout-input" id="checkout-name" aria-describedby="checkout-name" placeholder="Your name">
+                            </div>
+                            <div class="form-group mb6rem">
+                                <input type="email" class="form-control checkout-input" id="checkout-email" aria-describedby="checkout-email" placeholder="Email address here">
+                            </div>
+                            <div class="form-group mb6rem">
+                                <input type="text" class="form-control checkout-input" id="checkout-phone" placeholder="Phone here">
+                            </div>
+                            <div class="form-group mb6rem">
+                                <input type="text" class="form-control checkout-input" id="checkout-phone" placeholder="Company name here">
+                            </div>
+                            <div class="form-group mb6rem">
+                                <select class="form-control checkout-input" id="country" placeholder="Country">
+                                    <option>USA</option>
+                                    <option>EGYPT</option>
+                                    <option>USA</option>
+                                    <option>EGYPT</option>
+                                    <option>USA</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb6rem">
+                                <select class="form-control checkout-input" id="country" placeholder="Town/City">
+                                    <option>USA</option>
+                                    <option>EGYPT</option>
+                                    <option>USA</option>
+                                    <option>EGYPT</option>
+                                    <option>USA</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb6rem">
+                                <input type="text" class="form-control checkout-input" id="checkout-phone" placeholder="Company name here">
+                            </div>
+                            <div class="form-group mb6rem">
+                                <textarea class="form-control checkout-input checkout-input-textarea" id="checkout-address" placeholder="Your address here"
+                                    rows="2"></textarea>
+                            </div>
+                            <ul class="list-inline square clearfix">
+                                <li class="float-left checkout-billing-li checkout-options-float">
+                                    <a href="#" class="checkout-billing-li-a">Create an account ?</a>
+                                </li>
+                                <li class="float-right checkout-billing-li checkout-options-float">
+                                    <a href="#" class="checkout-billing-li-a">Ship to a different address</a>
+                                </li>
+                            </ul>
+
+                            <div class="form-group mb6rem">
+                                <textarea class="form-control checkout-input checkout-input-textarea" id="checkout-address" placeholder="Order Notes" rows="2"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="our-order p-5">
+                        <h4 class="text-center text-uppercase font-weight-bold mb-4">our order</h4>
+
+                        <table class="table table-hover">
+                            <thead class="cheackout-thead">
+                                <tr>
+                                    <th scope="col" class="border-0">PRODUCT</th>
+                                    <th scope="col" class="text-right border-0">TOTAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr class="cheackout-table-products">
+
+                                    <td>Men's White Shirt x2</td>
+
+                                    <td class="text-right">$86.00</td>
+                                </tr>
+                                <tr class="cheackout-table-products">
+                                    <td>Men's Black Shirt x1</td>
+
+                                    <td class="text-right">$69.00</td>
+
+                                </tr>
+
+                                <tr class="checkout-table-subtotal">
+                                    <td>Cart Subtotal</td>
+
+                                    <td class="text-right">$155.00</td>
+
+                                </tr>
+                                <tr class="checkout-table-subtotal">
+                                    <td>Shipping</td>
+
+                                    <td class="text-right">Free Shipping</td>
+
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr class="checkout-table-total">
+                                    <th scope="col">Order Total</th>
+                                    <th scope="col" class="text-right">$200.00</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="checkout-payment">
+                            <h4 class="text-center text-uppercase font-weight-bold my-3 checkout-payment-h">payment method</h4>
+                            <ul class="list-unstyled checkout-ul">
+                                <li class="checkout-payment-list my-3 px-4 py-2">
+
+                                    <a href="#" class="mgl cat-title  font-weight-bold text-uppercase checkout-payment-title-fs">
+                                        DIRECT BANK TRANSFER
+                                    </a>
+                                    <a class="float-right toggle" href="javascript:void(0);">
+
+                                        <i class="fa fa-chevron-down text-muted" aria-hidden="true"></i>
+
+                                    </a>
+
+
+                                    <div class="checkout-payment-body checkout-payment-content">
+                                        <p class="checkout-payment-body-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo beatae nostrum
+                                            qui, corrupti quas atque dignissimos ipsa reiciendis, rerum repudiandae illo
+                                            voluptatibus repellat quia!</p>
+                                    </div>
+
+                                </li>
+                                <li class="checkout-payment-list my-3 px-4 py-2">
+
+                                    <a href="#" class="mgl cat-title  font-weight-bold text-uppercase">
+                                        CHEQUE PAYMENT
+                                    </a>
+                                    <a class="float-right toggle" href="javascript:void(0);">
+
+                                        <i class="fa fa-chevron-down text-muted" aria-hidden="true"></i>
+
+                                    </a>
+
+
+                                    <div class="checkout-payment-body checkout-payment-content">
+                                        <p class="checkout-payment-body-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo beatae nostrum
+                                            qui, corrupti quas atque dignissimos ipsa reiciendis, rerum repudiandae illo
+                                            voluptatibus repellat quia!</p>
+                                    </div>
+
+                                </li>
+                                <li class="checkout-payment-list my-3 px-4 py-2">
+
+                                    <a href="#" class="mgl cat-title  font-weight-bold text-uppercase">
+                                        PAYPAL
+                                    </a>
+                                    <a class="float-right toggle" href="javascript:void(0);">
+
+                                        <i class="fa fa-chevron-down text-muted" aria-hidden="true"></i>
+
+                                    </a>
+
+
+                                    <div class="checkout-payment-body checkout-payment-content">
+                                        <p class="checkout-payment-body-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo beatae nostrum
+                                            qui, corrupti quas atque dignissimos ipsa reiciendis, rerum repudiandae illo
+                                            voluptatibus repellat quia!</p>
+                                    </div>
+
+                                </li>
+
+
+
+
+                            </ul>
+                        </div>
+                        <button type="submit" class="w-100 btn color-background-tmp mb-2 checkout-btn">Place Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End CheckOut Body -->
+<!-- Start Footer -->
+<footer class="pt-4">
+    <!-- Start Footer -->
+    <div class="container">
+        <div class="row footer-content">
+            <div class="col-lg-12 bg-white footer-brands p-4 ">
+                <div class="row">
+                    <div class=" col-sm-3">
+                        <img class="brands-width-100" src="img/logo1.png" alt="">
+                    </div>
+                    <div class=" col-sm-3">
+                        <img class="brands-width-100" src="img/logo2.png" alt="">
+                    </div>
+                    <div class=" col-sm-3">
+                        <img class="brands-width-100" src="img/logo3.png" alt="">
+                    </div>
+                    <div class=" col-sm-3">
+                        <img class="brands-width-100" src="img/logo4.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-12 my-4 mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 ">
+                        <h6 class="pt-5">SATHEE</h6>
+                        <div class="content-body py-3">
+
+                            <p class="mt-2 mb-4 footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis ex quam doloribus
+                                saepe iure molestias eum consectetur, nam totam!</p>
+                            <div class="footer-icons pb-4">
+
+                                <a href="" class="footer-icon fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="" class="footer-icon tw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="" class="footer-icon drb">
+                                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                                </a>
+                                <a href="" class="footer-icon pnt">
+                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <h6 class="pt-5">CONTACT US</h6>
+                        <div class="content-body py-3">
+                            <ul class="list-unstyled">
+                                <li class="contact-list py-2">
+                                    <span class="footer-icon float-left">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="footer-text float-left w-75">House No 08, Road No 08, Din Bari, Dhaka, Bangladesh</span>
+                                </li>
+                                <li class="contact-list py-2">
+                                    <span class="footer-icon float-left">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="footer-text float-left w-75">Username@gmail.com
+                                        <br> Damo@gmail.com</span>
+                                </li>
+                                <li class="contact-list py-2">
+                                    <span class="footer-icon float-left">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="footer-text float-left w-75">(+660 256 24857)
+                                        <br> (+660 256 24857)</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-6">
+                        <h6 class="pt-5">MY ACOUNT</h6>
+                        <div class="content-body p-3" style="font-size:90%;">
+                            <ul style="list-style-type:square;">
+                                <li class="pb-2">
+                                    <a href="" class="footer-links">My Account</a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="footer-links">My Cart</a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="footer-links">My Wishlist</a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="footer-links">Registration</a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="footer-links">Check out</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-6">
+                        <h6 class="pt-5">NEWSLETTER</h6>
+                        <div class="content-body py-3">
+                            <p style="font-size:85%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum accusamus adipisci
+                                <br> maiores architecto ex ad eaque similique mollitia, possimus commodi!</p>
+
+                            <form class="form">
+                                <div class="input-group py-2">
+
+                                    <input type="text" class="form-control email-input" placeholder="Enter Your Email ..." aria-label="Username" aria-describedby="basic-addon1">
+                                    <span class="">
+                                        <button class="btn btn-email text-white" type="button">
+                                            Subscribe
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <p class="text-center w-100">
+                        © SATHEE fashion 2016. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<!-- End Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+    <script src="js/jquery-bootpag.js"></script>
+    <script>
+        $('.checkout-payment-body').hide();
+        $('.toggle').click(function (e) {
+            e.preventDefault();
+
+            var $this = $(this);
+
+
+            if ($this.next().hasClass('show')) {
+                $this.next().removeClass('show');
+                $this.next().slideUp(350);
+            } else {
+                $this.parent().parent().find('li .checkout-payment-content').removeClass('show');
+                // $this.parent().toggleClass('sub-active');
+                $this.parent().parent().find('li .checkout-payment-content').slideUp(350);
+                $this.next().toggleClass('show');
+                $this.next().slideToggle(350);
+            }
+        });
+    </script>
+
+</body>
+
+</html>
