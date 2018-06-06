@@ -1,0 +1,12 @@
+.navbar-nav {
+    margin: 0 auto;
+}
+.card {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+.card-body {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
