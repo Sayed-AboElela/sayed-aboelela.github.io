@@ -5,6 +5,9 @@
     margin-bottom: 1.2rem;
     margin-top: 3rem;
 }
+.card-title {
+    margin-bottom: 1rem;
+}
 .card-body {
     text-align: center;
     padding-top: 4rem;
